@@ -1,0 +1,149 @@
+.footer{
+	padding: 20px 0;
+	background-color: #00122f;
+	color: white;
+	font-size: 16px;
+	min-height: 300px;
+}
+
+.foot_ul{
+	float: left;	
+	padding-top: 55px;
+	column-count: 2;
+  	column-gap: 60px;
+  	list-style: none;
+}
+
+.foot_ul li{
+	margin-bottom: 20px;
+}
+
+.left_foot{
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	width: 269px;
+}
+
+.center_foot{
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	width: 462px;
+	padding-top: 55px;
+	padding-left: 170px;
+}
+
+.right_foot{
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	width: 269px;
+	padding-left: 28px;
+	padding-top: 55px;
+}
+
+.news_agency{
+	padding-left: 3px;
+	padding-bottom: 5px; 
+}
+
+.foot_ul_center{
+	list-style: none;
+}
+
+.foot_ul_center li{
+	margin-top: 20px;
+}
+
+.vk{
+	display: block;
+  	width: 40px;
+ 	height: 40px;
+  	background: url('img/vk.png') transparent no-repeat 50% 50%;
+  	background-size: 50%;
+  	border: 1px solid #ffffff;
+  	border-radius: 50%;
+}
+
+.instagramm{
+	display: block;
+  	width: 40px;
+ 	height: 40px;
+  	background: url('img/instagram.png') transparent no-repeat 50% 50%;
+  	background-size: 50%;
+  	border: 1px solid #ffffff;
+  	border-radius: 50%;
+}
+
+.facebook{
+	display: block;
+  	width: 40px;
+ 	height: 40px;
+  	background: url('img/facebook.png') transparent no-repeat 50% 50%;
+  	background-size: 50%;
+  	border: 1px solid #ffffff;
+  	border-radius: 50%;
+}
+
+.twitter{
+	display: block;
+  	width: 40px;
+ 	height: 40px;
+  	background: url('img/twitter.png') transparent no-repeat 50% 50%;
+  	background-size: 50%;
+  	border: 1px solid #ffffff;
+  	border-radius: 50%;
+}
+
+.social{
+	margin: 0;
+  	padding: 0;
+  	list-style: none;
+}
+
+.social li{
+	display: inline-block;
+	vertical-align: middle;
+  	margin-right: 15px;
+}
+
+.contacts{
+	display: inline-block;
+	margin-top: 20px;
+  	padding:0;
+  	list-style: none;
+
+}
+
+.tel{
+  	width: 35px;
+ 	height: 35px;
+  	background: url('img/call-answer.png') transparent no-repeat 50% 50%;
+  	background-size: 30%;
+  	background-position:left;
+  	padding-left: 40px;
+}
+
+.mail{
+  	width: 30px;
+ 	height: 30px;
+  	background: url('img/envelope.png') transparent no-repeat 50% 50%;
+  	background-size: 30%;
+  	background-position:left;
+  	padding-left: 40px;
+}
+
+.contacts li{
+	margin-top: 20px;
+}
+
+.copyright{
+	color:#7f848d;
+	border-top: 1px solid #26354e;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 40px;
+
+}

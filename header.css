@@ -1,0 +1,141 @@
+.black-bar {
+	padding: 20px 0;
+	background-color: #00122f;
+	color: white;
+	font-size: 16px;
+	
+}
+
+.title {
+	float: left;
+}
+
+.datetime {
+	float: right;
+}
+
+.logo-container {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.left-header{
+	float:left; 
+}
+
+.right-header{
+	float: right;
+}
+
+.logo{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo_name{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:10px;
+	color:black;
+	font-weight:bold;
+}	
+
+.non_decorated{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:60px;
+	text-decoration: none;
+	
+	
+}
+
+.city_drop{
+	border-bottom: 2px dashed #448ccb;	
+	padding-bottom: 5px;
+	color:#448ccb;
+	
+}
+
+.arrow{
+	width:9px;
+	height:5px;
+	display: inline-block;
+  	vertical-align: middle;
+  	margin-left:10px;
+	background:url('img/down-arrow.png');
+	
+}
+
+.wheather{
+	height: 21px;
+	width: 85px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 47px;
+	padding-left:40px; 
+	padding-top: 3px;
+	color:#aeaeb9;
+	background-image:url('img/cloudy.png');
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.formsearch{
+	width: 320px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.inputsearch{
+	width: 320px;
+ 	height: 45px;
+ 	padding: 5px;
+	padding-left: 20px;
+  	border: 0;
+ 	background-color: #f3f3f3;
+  	border-radius: 30px;
+  	font-size: 14px;
+}
+
+.lupa{
+	position: absolute;
+	right: 20px;
+	top: 14px;
+	width: 16px;
+	height: 16px;
+	border:0;
+	background:url('img/search.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.menu-nav{
+	width: 1000px;
+ 	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 35px;
+}
+
+.menu_li{
+	display: inline-block;
+	vertical-align: middle;
+	border:0;
+	padding: 0px;
+	background-color: transparent;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.menu_li:first-child:before {
+	content: "";
+ 	margin-left: 0;
+ 	margin-right: 0;
+}
+
+.menu_li:before {
+  	content: "/";
+  	margin-left: 20px;
+ 	margin-right: 20px;
+ 	color:gray;
+}
+
